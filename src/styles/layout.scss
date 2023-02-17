@@ -1,0 +1,93 @@
+$displays: inline, flex, block, inline-block;
+@each $elem in $displays {
+  .#{$elem} {
+    display: $elem;
+  }
+}
+$direction: row, column;
+@each $elem in $direction {
+  .#{$elem} {
+    flex-direction: $elem;
+  }
+}
+$justifies: center, start, end;
+@each $elem in $justifies {
+  .justify-#{$elem} {
+    justify-content: $elem;
+  }
+}
+@for $i from 1 through 10 {
+  $tmp:  $i * 5px;
+  .pa-#{$i} {
+    padding: $tmp;
+  }
+  .pt-#{$i} {
+    padding-top: $tmp;
+  }
+  .pr-#{$i} {
+    padding-right: $tmp;
+  }
+  .pb-#{$i} {
+    padding-bottom: $tmp;
+  }
+  .pl-#{$i} {
+    padding-left: $tmp;
+  }
+  .px-#{$i} {
+    padding-left: $tmp;
+    padding-right: $tmp;
+  }
+  .py-#{$i} {
+    padding-top: $tmp;
+    padding-bottom: $tmp;
+  }
+  .ma-#{$i} {
+    margin: $tmp;
+  }
+  .mt-#{$i} {
+    margin-top: $tmp;
+  }
+  .mr-#{$i} {
+    margin-right: $tmp;
+  }
+  .mb-#{$i} {
+    margin-bottom: $tmp;
+  }
+  .ml-#{$i} {
+    margin-left: $tmp;
+  }
+  .mx-#{$i} {
+    margin-left: $tmp;
+    margin-right: $tmp;
+  }
+  .my-#{$i} {
+    margin-top: $tmp;
+    margin-bottom: $tmp;
+  }
+}
+.flex {
+  &-grow {
+    flex-grow: 1;
+  }
+  &-shrink {
+    flex-shrink: 1;
+  }
+  &-wrap {
+    flex-wrap: wrap;
+  }
+}
+$txt: left, center, end;
+@each $elem in $txt {
+  .text-#{$elem} {
+    text-align: $elem;
+  }
+}
+.relative {
+  position: relative;
+}
+.pointer {
+  cursor: pointer;
+}
+.cursor-default {
+  cursor: default
+}

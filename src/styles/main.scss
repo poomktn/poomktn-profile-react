@@ -1,0 +1,10 @@
+@import 'color';
+@import 'layout';
+@import 'font';
+*,
+*::before,
+*::after {
+  font-size: 16px;
+  line-height: 1.2;
+  box-sizing: border-box;
+}

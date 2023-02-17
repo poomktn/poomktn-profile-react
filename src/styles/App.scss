@@ -1,0 +1,39 @@
+.App {
+  padding: 20px;
+  width: 210mm;
+  margin: auto;
+}
+li::marker {
+  font-size: 22px;
+}
+#interest {
+  li::marker {
+    content: '☨ ';
+  }
+}
+#skill {
+  li::marker {
+    content: '♰ ';
+  }
+}
+#experience {
+  li::marker {
+    content: '☩ ';
+  }
+}
+.tooltip {
+  width: 200px;
+  position: absolute;
+  left: 20px;
+  top: -50px;
+  z-index: 2;
+}
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+}

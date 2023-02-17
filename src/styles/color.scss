@@ -1,0 +1,37 @@
+$red: #f00;
+$green: #0f0;
+$orange: #ff8000;
+$blue: #00f;
+$yellow: #ff0;
+$gold: #ffd700;
+$violet: #f0f;
+$cyan: #0ff;
+$white: #fff;
+$black: #000;
+$grey: #888;
+$colors: (
+  'red': $red,
+  'green': $green,
+  'orange': $orange,
+  'blue': $blue,
+  'yellow': $yellow,
+  'violet': $violet,
+  'cyan': $cyan,
+  'white': $white,
+  'black': $black,
+  'gold': $gold,
+  'grey': $grey
+);
+
+@each $name, $code in $colors {
+  .txt-#{$name} {
+    color: $code;
+  }
+  .bg-#{$name} {
+    background: $code;
+  }
+  .border-#{$name} {
+    border: 2px solid $code;
+    border-radius: 10px;
+  }
+}
