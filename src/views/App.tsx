@@ -1,7 +1,7 @@
 import { useRecoilState } from 'recoil'
 import { nameState, countState } from 'stores'
 import Box from 'components/Box'
-import 'styles/App.scss'
+import 'assets/styles/App.scss'
 import { useState } from 'react'
 
 export default function App() {
