@@ -75,7 +75,7 @@ export default function App() {
         <div className='ml-2'>
           <Box color='orange'>
             <div className='mb-1'>
-              <b>Tel:</b> 082-322-7582
+              <b>Tel:</b> 063-161-6212
             </div>
             <div className='flex'>
               <b>Email:</b>&nbsp;kuntanut.s@gmail.com&nbsp;
