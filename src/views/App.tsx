@@ -1,27 +1,27 @@
-import { useRecoilState } from 'recoil'
-import { nameState, countState } from 'stores'
 import Box from 'components/Box'
-import 'assets/styles/App.scss'
 import { useState } from 'react'
+import 'assets/styles/App.scss'
 
 export default function App() {
-  const [countStx, setCount] = useRecoilState(countState)
-  const [nameStx, setName] = useRecoilState(nameState)
   const [mailTooltip, setTooltip] = useState(false)
   const skill = [
     'Programming languages: JavaScript, TypeScript, Python',
     'Moderate English writing and communication skills',
-    'JavaScript Front-end frameworks: Vue(2&3) , Vuetify, Quasar, Nuxt, React',
+    'Front-end frameworks: React Hook, Vue(2&3), Vuetify, Quasar, Nuxt',
     'UML design tools: Draw.io, Visual Paradigm',
     'Interface design tool: Figma, Zeplin',
     'Web hosting: Firebase',
     'Screen drawing tool: Epic Pen',
-    'Python basic data science tools: Pandas, ScikitLearn'
+    'Python basic data science tools: Pandas, ScikitLearn',
   ]
   const exp = [
     {
-      li: 'EdVISORY co., ltd. / Jan 2021 - Present',
-      txt: 'Working as a front-end developer, Mainly using Nuxt, Vue (2&3) as front-end frameworks for many products and projects'
+      li: 'Magic Box Solutions Co., Ltd. / Feb 2023 - Present',
+      txt: 'Working as a front-end developer, Mainly using React Hook, TypeScript as front-end frameworks for many products and projects',
+    },
+    {
+      li: 'EdVISORY Co., Ltd. / Jan 2021 - Feb 2023',
+      txt: 'Working as a front-end developer, Mainly using Nuxt, Vue (2&3) as front-end frameworks for many products and projects',
     },
     {
       li: 'Senior Project (Video Repetition Analysis) / Feb - May 2020',
@@ -71,7 +71,7 @@ export default function App() {
   return (
     <div className='App'>
       <div className='flex justify-center'>
-        <img width='300' height='300' src={require('assets/images/Edvisory.png')} alt='' />
+        <img width='300' height='300' src={require('assets/images/profile.jpg')} className='profile-img' alt='' />
         <div className='ml-2'>
           <Box color='orange'>
             <div className='mb-1'>
@@ -89,7 +89,7 @@ export default function App() {
                 </div>
                 {mailTooltip && (
                   <div className='tooltip pa-1 bg-black txt-white border-black'>
-                    Email are difference from name because I try my name as email but got invalid, so I decide
+                    Email is difference from name because I try my name as email but got invalid, so I decide
                     to change vowels of my name
                   </div>
                 )}
@@ -147,7 +147,7 @@ export default function App() {
         <p className='text-center'>
           Chulalongkorn University, Bangkok, Thailand
           <br />
-          Between 2016 – 2020
+          Between 2016 - 2020
           <br />
           Bachelor Engineer in Computer Engineering
         </p>

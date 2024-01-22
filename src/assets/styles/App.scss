@@ -4,7 +4,7 @@
   margin: auto;
 }
 li::marker {
-  font-size: 22px;
+  font-size: 24px;
 }
 #interest {
   li::marker {
@@ -20,6 +20,9 @@ li::marker {
   li::marker {
     content: '☩ ';
   }
+}
+.profile-img {
+  border-radius: 50%;
 }
 .tooltip {
   width: 200px;
