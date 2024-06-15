@@ -6,7 +6,7 @@ type BoxProps = {
   className?: string
   children?: ReactNode
 }
-export default function Box({
+export function Box({
   className,
   color,
   title,

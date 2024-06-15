@@ -1,0 +1,7 @@
+export * from './Box'
+export * from './ContactBox'
+export * from './EducationBox'
+export * from './ExperienceBox'
+export * from './InterestBox'
+export * from './IntroduceBox'
+export * from './SkillBox'
