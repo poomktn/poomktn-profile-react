@@ -6,7 +6,7 @@ type ExperienceProps = {
 }
 const exp: ExperienceProps[] = [
   {
-    li: 'Magic Box Solutions Co., Ltd. / Feb 2023 - Present',
+    li: 'Magic Box Solutions Co., Ltd. / Feb 2023 - July 2024',
     txt: 'Working as a front-end developer, Mainly using React Hook, TypeScript as front-end frameworks for many products and projects',
   },
   {
