@@ -76,6 +76,9 @@ $justifies: center, start, end;
     flex-wrap: wrap;
   }
 }
+.half {
+  width: 50%;
+}
 $txt: left, center, end;
 @each $elem in $txt {
   .text-#{$elem} {

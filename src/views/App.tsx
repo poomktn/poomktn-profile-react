@@ -6,6 +6,7 @@ import {
   InterestBox,
   IntroduceBox,
   SkillBox,
+  SystemBox,
 } from 'components'
 import 'assets/styles/App.scss'
 
@@ -30,6 +31,7 @@ export default function App() {
       </div>
       <IntroduceBox />
       <SkillBox />
+      <SystemBox />
       <ExperienceBox />
       <EducationBox />
       <div className='flex justify-center no-print mt-1'>

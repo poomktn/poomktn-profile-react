@@ -16,6 +16,11 @@ li::marker {
     content: '♰ ';
   }
 }
+#system {
+  li::marker {
+    content: '♱ ';
+  }
+}
 #experience {
   li::marker {
     content: '☩ ';

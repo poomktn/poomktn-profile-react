@@ -1,0 +1,22 @@
+import { Box } from './Box'
+const system: string[] = [
+  'Login with email, password and SSO',
+  'Initializing project template (fonts, colors)',
+  'Forget and Reset password',
+  'CRUD Table',
+  'State Management',
+  'Device Permission Request',
+]
+export function SystemBox() {
+  return (
+    <Box color='grey' className='mt-2' title='Web Systems Participation'>
+      <div id='system' className='flex flex-wrap'>
+        {system.map(txt => (
+          <li key={txt} className='mb-1 half'>
+            {txt}
+          </li>
+        ))}
+      </div>
+    </Box>
+  )
+}
