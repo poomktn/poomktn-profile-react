@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Box } from './Box'
 const TELEPHONE_NUMBER = '092-416-4261'
-const GITHUB_LINK = 'https://github.com/poomktn'
+// const GITHUB_LINK = 'https://github.com/poomktn'
 
 export function ContactBox() {
   const [tooltip, setTooltip] = useState(false)
@@ -31,12 +31,12 @@ export function ContactBox() {
           )}
         </div>
       </div>
-      <div>
+      {/* <div>
         <b>Github:</b>
         <a href={GITHUB_LINK} target='_blank' rel='noreferrer'>
           {GITHUB_LINK}
         </a>
-      </div>
+      </div> */}
     </Box>
   )
 }
