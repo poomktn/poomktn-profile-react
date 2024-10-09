@@ -3,15 +3,18 @@ import { Box } from './Box'
 type ExperienceProps = {
   li: string
   txt: string
+  detail?: string
 }
 const exp1: ExperienceProps[] = [
   {
     li: 'Magic Box Solutions Co., Ltd. / Feb 2023 - July 2024',
     txt: 'Working as a front-end developer, Mainly using React Hook, TypeScript as front-end frameworks for many products and projects',
+    detail: 'Foreign tailor, Car Insurance, Meeting Room, KYC'
   },
   {
     li: 'EdVISORY Co., Ltd. / Jan 2021 - Feb 2023',
     txt: 'Working as a front-end developer, Mainly using Nuxt, Vue (2&3) as front-end frameworks for many products and projects',
+    detail: 'ERP, University Website, Housing Estate'
   },
 ]
 const exp2: ExperienceProps[] = [
@@ -65,11 +68,13 @@ export function ExperienceBox() {
   return (
     <Box color='orange' className='mt-2' title='Experiences'>
       <div id='experience'>
-        {exp1.map(({ li, txt }) => (
+        {exp1.map(({ li, txt, detail }) => (
           <div key={li}>
             <li className='txt-orange'>{li}</li>
             <div className='py-1 ml-5'>
               <span>{txt}.</span>
+              <br />
+              <span>- {detail}</span>
             </div>
           </div>
         ))}

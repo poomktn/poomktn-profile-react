@@ -6,7 +6,7 @@ const skill: string[] = [
   'State Management: Redux & Zustand (React Hook), Vuex (Vue 2), Pinia (Vue 3)',
   'Page Routing: React Router (React Hook), Vue Router (Vue 2&3)',
   'Code Editor and Extension: Visual Studio Code, ESLint, Prettier',
-  'Git GUI: Fork, Sourcetree',
+  'Git tools: GitHub, GitLab, Fork, Sourcetree',
   'Web hosting: Firebase',
   'Database: SQL (in University)',
   'Python basic data science tools: Pandas, ScikitLearn',

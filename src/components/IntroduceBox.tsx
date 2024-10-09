@@ -2,9 +2,9 @@ import { Box } from './Box'
 
 export function IntroduceBox() {
   return (
-    <Box color='gold' className='mt-2' title='Introduce Myself'>
-      <div className='pa-2'>
-        A front-end developer who seeks motivation, knowledge and experience from goals.
+    <Box color='gold' className='mt-1' title='Introduce Myself'>
+      <div className='pa-1'>
+        The man who relentlessly seeks discipline, knowledge and motivation from set achievable goals.
       </div>
     </Box>
   )
