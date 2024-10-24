@@ -15,8 +15,8 @@ export default function App() {
     <div className='App'>
       <div className='flex justify-center'>
         <img
-          width='300'
-          height='300'
+          width='280px'
+          height='280px'
           src={require('assets/images/profile.jpg')}
           className='profile-img'
           alt=''

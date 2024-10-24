@@ -3,18 +3,27 @@ import { Box } from './Box'
 type ExperienceProps = {
   li: string
   txt: string
-  detail?: string
+  detail?: string[]
 }
 const exp1: ExperienceProps[] = [
   {
     li: 'Magic Box Solutions Co., Ltd. / Feb 2023 - July 2024',
     txt: 'Working as a front-end developer, Mainly using React Hook, TypeScript as front-end frameworks for many products and projects',
-    detail: 'Foreign tailor, Car Insurance, Meeting Room, KYC'
+    detail: [
+      "Foreign tailor: fix bug in 'suit selection' feature and i18n word",
+      'Car Insurance: integrate Microsoft Login, manage user role and CRUD table',
+      'Meeting Room: call REST api to get, post and render info about catering',
+      'KYC: call REST api to get and render info of user',
+    ],
   },
   {
     li: 'EdVISORY Co., Ltd. / Jan 2021 - Feb 2023',
     txt: 'Working as a front-end developer, Mainly using Nuxt, Vue (2&3) as front-end frameworks for many products and projects',
-    detail: 'ERP, University Website, Housing Estate'
+    detail: [
+      'ERP: use handlebars.js to export excel from html template in backend',
+      'University Website: create SSO Login and disable unused hosting via firebase',
+      'Housing Estate: use socket.io to create real time chat with emoji',
+    ],
   },
 ]
 const exp2: ExperienceProps[] = [
@@ -73,8 +82,13 @@ export function ExperienceBox() {
             <li className='txt-orange'>{li}</li>
             <div className='py-1 ml-5'>
               <span>{txt}.</span>
-              <br />
-              <span>- {detail}</span>
+              {detail?.map(elem => (
+                <div className='mt-1' key={elem}>
+                  <span>
+                    <b>-</b> {elem}
+                  </span>
+                </div>
+              ))}
             </div>
           </div>
         ))}
