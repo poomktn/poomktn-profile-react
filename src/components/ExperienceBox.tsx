@@ -7,8 +7,18 @@ type ExperienceProps = {
 }
 const exp1: ExperienceProps[] = [
   {
+    li: 'Bangkok Terminal Services Co., Ltd. / Nov 2024 - Apr 2025',
+    txt: 'Working as a full-stack developer, Mainly using React Hook, Tailwind CSS and NestJS as frameworks for projects',
+    detail: [
+      'Ship logistics: develop responsive UI for Web App',
+      'Ship Storage: develop new features for internal company website',
+      'Procurement: add new features into existing function',
+      'Material and Inventory: change relations and fix logics of tables',
+    ],
+  },
+  {
     li: 'Magic Box Solutions Co., Ltd. / Feb 2023 - July 2024',
-    txt: 'Working as a front-end developer, Mainly using React Hook, TypeScript as front-end frameworks for many products and projects',
+    txt: 'Working as a front-end developer, Mainly using React Hook, TypeScript as front-end frameworks for products and projects',
     detail: [
       "Foreign tailor: fix bug in 'suit selection' feature and i18n word",
       'Car Insurance: integrate Microsoft Login, manage user role and CRUD table',
@@ -18,7 +28,7 @@ const exp1: ExperienceProps[] = [
   },
   {
     li: 'EdVISORY Co., Ltd. / Jan 2021 - Feb 2023',
-    txt: 'Working as a front-end developer, Mainly using Nuxt, Vue (2&3) as front-end frameworks for many products and projects',
+    txt: 'Working as a front-end developer, Mainly using Nuxt, Vue (2&3) as front-end frameworks for products and projects',
     detail: [
       'ERP: use handlebars.js to export excel from html template in backend',
       'University Website: create SSO Login and disable unused hosting via firebase',

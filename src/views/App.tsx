@@ -3,8 +3,6 @@ import {
   ContactBox,
   EducationBox,
   ExperienceBox,
-  InterestBox,
-  IntroduceBox,
   SkillBox,
   SystemBox,
 } from 'components'
@@ -15,21 +13,20 @@ export default function App() {
     <div className='App'>
       <div className='flex justify-center'>
         <img
-          width='280px'
-          height='280px'
+          width='200px'
+          height='200px'
           src={require('assets/images/profile.jpg')}
           className='profile-img'
           alt=''
         />
         <div className='ml-2'>
           <ContactBox />
-          <Box color='black' className='my-2 text-center'>
-            <h2>Mr. Kantanat Siripipatworakun</h2>
+          <Box color="black" className="my-3 text-left">
+            <h2>Eng: Kantanat Siripipatworakun</h2>
+            <h2>TH: &nbsp;กันตณัฐ สิริพิพัฒน์วรคุณ</h2>
           </Box>
-          <InterestBox />
         </div>
       </div>
-      <IntroduceBox />
       <SkillBox />
       <SystemBox />
       <ExperienceBox />
