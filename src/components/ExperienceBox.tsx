@@ -7,16 +7,6 @@ type ExperienceProps = {
 }
 const exp1: ExperienceProps[] = [
   {
-    li: 'Bangkok Terminal Services Co., Ltd. / Nov 2024 - Apr 2025',
-    txt: 'Working as a full-stack developer, Mainly using React Hook, Tailwind CSS and NestJS as frameworks for projects',
-    detail: [
-      'Ship logistics: develop responsive UI for Web App',
-      'Ship Storage: develop new features for internal company website',
-      'Procurement: add new features into existing function',
-      'Material and Inventory: change relations and fix logics of tables',
-    ],
-  },
-  {
     li: 'Magic Box Solutions Co., Ltd. / Feb 2023 - July 2024',
     txt: 'Working as a front-end developer, Mainly using React Hook, TypeScript as front-end frameworks for products and projects',
     detail: [
@@ -75,7 +65,7 @@ const exp2: ExperienceProps[] = [
   },
   {
     li: 'Java Song Game Project (LAPLAP) / Nov - Dec 2017',
-    txt: 'The paired project using Eclipse IDE with JavaFX to create and develop simple game like ‘guitar hero’. The game has 3 buttons to tapping key passing their line during song is played',
+    txt: 'The paired project using Java to create and develop simple game like ‘guitar hero’. The game has 3 buttons to tapping key passing their line during song is played',
   },
   {
     li: 'Part-time academician at LIC-Ignite / Jun - Aug 2017',
