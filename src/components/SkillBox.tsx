@@ -1,6 +1,6 @@
 import { Box } from './Box'
 const skill: string[] = [
-  'Programming languages: TypeScript, JavaScript, Python',
+  'Programming languages: TypeScript, JavaScript, Python, Java',
   'Front-end frameworks: React Hook, Vue 2&3, ViteJS, NuxtJS, NextJS',
   'State Management: Redux & Zustand (React Hook), Vuex (Vue 2), Pinia (Vue 3)',
   'Page Routing: React Router (React Hook), Vue Router (Vue 2&3)',
