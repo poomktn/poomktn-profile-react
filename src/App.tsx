@@ -5,8 +5,9 @@ import {
   ExperienceBox,
   SkillBox,
   SystemBox,
-} from 'components'
-import 'assets/styles/App.scss'
+} from '@components'
+import '@assets/styles/App.scss'
+import { profileImg } from '@assets/images'
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
         <img
           width='200px'
           height='200px'
-          src={require('assets/images/profile.jpg')}
+          src={profileImg}
           className='profile-img'
           alt=''
         />

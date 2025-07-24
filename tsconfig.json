@@ -9,6 +9,12 @@
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "@assets/*": ["./assets/*"],
+      "@components": ["./components"],
+      "@components/*": ["./components/*"]
+    },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,

@@ -1,6 +1,6 @@
-@import 'color';
-@import 'layout';
-@import 'font';
+@use 'color';
+@use 'layout';
+@use 'font';
 *,
 *::before,
 *::after {
