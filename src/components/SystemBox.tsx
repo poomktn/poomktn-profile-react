@@ -3,7 +3,7 @@ const system: string[] = [
   'Login with email, password and SSO',
   'Initializing project template (fonts, colors)',
   'Forget and Reset password',
-  'CRUD and Change relations of Tables',
+  'CRUD Table',
   'State Management',
   'Device Permission Request',
 ]
